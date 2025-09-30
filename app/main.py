@@ -21,7 +21,7 @@ def sha256_hash_str(to_hash: str) -> str:
 
 
 def brute_force_password() -> None:
-    num = 0
+    num = -1
     while PASSWORDS_TO_BRUTE_FORCE:
         num += 1
         password = str(num).zfill(8)
